@@ -1,0 +1,2 @@
+let e=document.querySelector(".input-btn"),t=document.querySelector(".button-btn"),r=document.querySelector(".result"),l=Math.floor(10*Math.random())+1;t.addEventListener("click",()=>{var t;let o=Number(e.value);o>10||o<1?alert("Введіть число від 1 до 10!"):(r.textContent=o===(t=l)?`Вітаю ви вгадали число (${t})`:`Ви програли комп’ютер загадав (${t})`,o===l?r.className="result win":r.className="result lose",l=Math.floor(10*Math.random())+1)}),z;
+//# sourceMappingURL=FR4-PARCEL.79650b86.js.map
